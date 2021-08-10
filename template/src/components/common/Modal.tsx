@@ -13,11 +13,7 @@ export default function ModalComponent({
   ...props
 }: ModalProps) {
   return (
-    <Modal
-      maskClosable={false}
-      keyboard={false}
-      className="header--no-underline"
-      {...props}>
+    <Modal maskClosable={false} keyboard={false} {...props}>
       <Spin spinning={loadingData}>{children}</Spin>
     </Modal>
   )
