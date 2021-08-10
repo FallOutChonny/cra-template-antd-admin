@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": [
+        "components/*",
+        "components/ui/*",
+        "components/common/*"
+      ],
+      "@icons/*": ["components/icons/*"],
+      "@utils/*": ["utils/*"],
+      "@services/*": ["services/*"],
+      "@pages/*": ["pages/*"],
+      "@hooks/*": ["hooks/*"],
+      "@lib/*": ["lib/*"]
+    },
+    "typeRoots": ["typings", "node_modules/@types"]
+  }
+}

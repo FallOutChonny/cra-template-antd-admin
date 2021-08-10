@@ -1,16 +1,24 @@
 {
-  "name": "cra-template-typescript",
-  "version": "1.1.2",
+  "name": "cra-template-antd-admin",
+  "version": "1.0.0",
   "keywords": [
     "react",
+    "admin",
     "create-react-app",
     "template",
-    "typescript"
+    "typescript",
+    "antd",
+    "ant-design",
+    "styled-components",
+    "tailwind",
+    "tailwindcss",
+    "react-router",
+    "react-query"
   ],
-  "description": "The base TypeScript template for Create React App.",
+  "description": "The antd admin template for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/FallOutChonny/cra-template-antd-admin.git",
     "directory": "packages/cra-template-typescript"
   },
   "license": "MIT",
@@ -18,7 +26,7 @@
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/FallOutChonny/cra-template-antd-admin/issues"
   },
   "files": [
     "template",
