@@ -2,13 +2,6 @@
 
 The antd+TS, tailwindcss, styled-components, react-router, react-query template for [Create React App](https://create-react-app.dev/)
 
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -34,7 +27,7 @@ The antd+TS, tailwindcss, styled-components, react-router, react-query template 
   <h3 align="center">cra-template-antd-admin</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome cra template to jumpstart your projects!
     <br />
     <a href="https://github.com/FalloutChonny/cra-template-antd-admin"><strong>Explore the docs »</strong></a>
     <br />
@@ -81,33 +74,17 @@ The antd+TS, tailwindcss, styled-components, react-router, react-query template 
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is a [Create React App](https://create-react-app.dev/) template that integrates many tools and infrastructures, it can let you start the development work directly and quickly without trivial steps to set up your project.
+This is a [Create React App](https://create-react-app.dev/) template that integrates many tools and libs, it can let you start the development work directly and quickly without trivial steps to set up your project.
 
 
 <!-- BUILT WITH -->
 ### Built with
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [ant design](https://github.com/ant-design/ant-design)
   * a example page for basic CRUD actions.
   * basic layouts (these layouts do not contain any custom styles, you can easily adjust it to what you want.)
 
-* [styled-components](https://styled-components.com/)
-  * building custom components.
-  * overriding antd component styles.
-
-* [tailwindcss](https://tailwindcss.com/) - A utility-first CSS framework
-  * building layouts freely.
-  * highly cusotomizable.
-  * purge enabled.
-
-* [react-router](https://reactrouter.com/)
-  * The global route setting has been written in lib/routes, which is provided to Sider and App components.
-
-* [react-query](https://react-query.tanstack.com/) - Fetch, cache and update data
-
-* [craco](https://github.com/gsoft-inc/craco) - Extend webpack config provided by create-react-app without eject
+* [craco](https://github.com/gsoft-inc/craco)  for extend webpack config provided by create-react-app without eject
   * absolute import path with `@` prefix, such as:
     - @pages/Home
     - @hooks/useModal
@@ -120,6 +97,22 @@ This section should list any major frameworks that you built your project using.
 
   * babel-plugin-styled-components - purge unused styles.
 
+* [prettier](https://prettier.io/docs/en/precommit.html)
+  - pre-commit hook with husky, lint-staged, this can re-format your files that are marked as “staged” via git add before you commit.
+
+* [tailwindcss](https://tailwindcss.com/)
+  * building layouts freely.
+  * highly cusotomizable.
+  * purge enabled.
+
+* [styled-components](https://styled-components.com/)
+  * building custom components.
+  * overriding antd component styles.
+
+* [react-router](https://reactrouter.com/)
+  * The route setting has been written in lib/routes, which is provided to Sider, App or any other components.
+
+* [react-query](https://react-query.tanstack.com/) - Fetch, cache and update data
 
 
 <!-- GETTING STARTED -->
@@ -234,7 +227,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Chonny Chu - mama.whowho@gmail.com
 
-Project Link: [https://github.com/FallOutChonny/cra-template-antd-admin](https://github.com/FallOutChonny/cra-template-antd-admin)
+Project Link - [https://github.com/FallOutChonny/cra-template-antd-admin](https://github.com/FallOutChonny/cra-template-antd-admin)
 
 <!-- ACKNOWLEDGEMENTS -->
 
