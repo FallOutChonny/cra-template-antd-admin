@@ -18,7 +18,7 @@
 
 The antd+TS, tailwindcss, styled-components, react-router, react-query template for [Create React App](https://create-react-app.dev/)
 
-一款使用 antd 拉好基本佈局、並整合好 [router](https://reactrouter.com/), [styled-components](https://styled-components.com/), [tailwindcss](https://tailwindcss.com/), [prettier commit hook](https://prettier.io/docs/en/precommit.html) 和 craco 設定的 CRA 樣板，讓你可以快速開始一個以 antd 作為基礎功能和 UI 的專案
+一款使用 antd 拉好基本佈局、並整合好 [router](https://reactrouter.com/), [styled-components](https://styled-components.com/), [tailwindcss](https://tailwindcss.com/), [prettier commit hook](https://prettier.io/docs/en/precommit.html) 和 [craco](https://github.com/gsoft-inc/craco) 設定的 CRA 樣板，讓你跳過拉佈局、設定路由、 babel 和 webpack 的路徑別名等等步驟，可以快速開始一個以 antd 作為基礎功能和 UI 的專案
 
 <!-- PROJECT LOGO -->
 <br />
@@ -85,8 +85,9 @@ This is a [Create React App](https://create-react-app.dev/) template that integr
 
 - [ant design](https://github.com/ant-design/ant-design)
 
-  - a example page for basic CRUD actions.
-  - basic layouts (these layouts do not contain any custom styles, you can easily adjust it to what you want.)
+  - basic layouts (do not include any custom styles, you can easily adjust it to what you want.)
+  - this template provides a page for basic CRUD actions sample.
+
 
 - [craco](https://github.com/gsoft-inc/craco) for extend webpack config provided by create-react-app without eject
 
