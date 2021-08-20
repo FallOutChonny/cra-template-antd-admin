@@ -72,7 +72,7 @@ The antd+TS, tailwindcss, styled-components, react-router, react-query template 
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./screenshots/screenshots1.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/FallOutChonny/cra-template-antd-admin/blob/master/screenshots/screenshots1.png)
 
 This is a [Create React App](https://create-react-app.dev/) template that integrates many tools and libs, it can let you start the development work directly and quickly without trivial steps to set up your project.
 
