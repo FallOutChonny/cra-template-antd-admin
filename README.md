@@ -16,11 +16,9 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
 The antd+TS, tailwindcss, styled-components, react-router, react-query template for [Create React App](https://create-react-app.dev/)
 
 一款使用 antd 拉好基本佈局、並整合好 [router](https://reactrouter.com/), [styled-components](https://styled-components.com/), [tailwindcss](https://tailwindcss.com/), [prettier commit hook](https://prettier.io/docs/en/precommit.html) 和 craco 設定的 CRA 樣板，讓你可以快速開始一個以 antd 作為基礎功能和 UI 的專案
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -77,49 +75,56 @@ The antd+TS, tailwindcss, styled-components, react-router, react-query template 
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/FallOutChonny/cra-template-antd-admin/blob/master/screenshots/screenshots1.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/FallOutChonny/cra-template-antd-admin)
 
 This is a [Create React App](https://create-react-app.dev/) template that integrates many tools and libs, it can let you start the development work directly and quickly without trivial steps to set up your project.
 
-
 <!-- BUILT WITH -->
+
 ### Built with
 
-* [ant design](https://github.com/ant-design/ant-design)
-  * a example page for basic CRUD actions.
-  * basic layouts (these layouts do not contain any custom styles, you can easily adjust it to what you want.)
+- [ant design](https://github.com/ant-design/ant-design)
 
-* [craco](https://github.com/gsoft-inc/craco)  for extend webpack config provided by create-react-app without eject
-  * absolute import path with `@` prefix, such as:
+  - a example page for basic CRUD actions.
+  - basic layouts (these layouts do not contain any custom styles, you can easily adjust it to what you want.)
+
+- [craco](https://github.com/gsoft-inc/craco) for extend webpack config provided by create-react-app without eject
+
+  - absolute import path with `@` prefix, such as:
+
     - @pages/Home
     - @hooks/useModal
     - @components/Layout
 
-  * webpack-bundle-analyzer - generate a interactive zoomable treemap to reivew your bundle.
+  - webpack-bundle-analyzer - generate a interactive zoomable treemap to reivew your bundle.
+
     - usage: `ANALYZE=true craco build`
 
-  * babel-plugin-import - only boundle the styles and components of antd that used by the app.
+  - babel-plugin-import - only boundle the styles and components of antd that used by the app.
 
-  * babel-plugin-styled-components
-    * purge unused styles
-    * support css props in native html tag.
+  - babel-plugin-styled-components
+    - purge unused styles
+    - support css props in native html tag.
 
-* [prettier](https://prettier.io/docs/en/precommit.html)
+- [prettier](https://prettier.io/docs/en/precommit.html)
+
   - pre-commit hook with husky, lint-staged, this can re-format your files that are marked as “staged” via git add before you commit.
 
-* [tailwindcss](https://tailwindcss.com/)
-  * building layouts freely.
-  * purge enabled.
+- [tailwindcss](https://tailwindcss.com/)
 
-* [styled-components](https://styled-components.com/)
-  * building custom components.
-  * overriding antd component styles.
+  - building layouts freely.
+  - purge enabled.
 
-* [react-router](https://reactrouter.com/)
-  * The route setting has been written in lib/routes, which is provided to Sider, App or any other components.
+- [styled-components](https://styled-components.com/)
 
-* [react-query](https://react-query.tanstack.com/) - Fetch, cache and update data
+  - building custom components.
+  - overriding antd component styles.
 
+- [react-router](https://reactrouter.com/)
+
+  - The route setting has been written in lib/routes, which is provided to Sider, App or any other components.
+
+- [react-query](https://react-query.tanstack.com/) - Fetch, cache and update data
 
 <!-- GETTING STARTED -->
 
@@ -171,7 +176,7 @@ my-app
     │   │   ├── Loading.tsx			- loading indicator
     │   │   └── Modal.tsx			- global modal
     │   ├── icons			    	- custom/extend icons
-    │   │   ├── Add.tsx	
+    │   │   ├── Add.tsx
     │   │   └── Edit.tsx
     │   ├── ui                      - should be atomic and pure, like Button, Select, Tabs
     │   │   ├── Header.tsx			- the navbar of app
@@ -190,7 +195,7 @@ my-app
     │   ├── Home					- basic table list, CRUD example page
     ├── utils
     │   ├── env.ts					- app config such as `api url`, `app basename`
-    │   ├── form.ts					- antd form helpers	
+    │   ├── form.ts					- antd form helpers
     │   ├── history.ts				- global history
     │   ├── request.ts				- simple custom fetch wrapper
     │   └── webHelper.ts			- util functions
@@ -242,19 +247,19 @@ Project Link - [https://github.com/FallOutChonny/cra-template-antd-admin](https:
 - [Ant-Design](https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge)
 - [Create-React-App](https://github.com/othneildrew/Best-README-Template/graphs/contributors)
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/falloutchonny/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/falloutchonny/cra-template-antd-admin/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/falloutchonny/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/falloutchonny/cra-template-antd-admin/network/members
+
+[contributors-shield]: https://img.shields.io/github/contributors/FallOutChonny/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/FallOutChonny/cra-template-antd-admin/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/FallOutChonny/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/FallOutChonny/cra-template-antd-admin/network/members
 [stars-shield]: https://img.shields.io/github/stars/falloutchonny/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/falloutchonny/cra-template-antd-admin/stargazers
+[stars-url]: https://github.com/FallOutChonny/cra-template-antd-admin/stargazers
 [issues-shield]: https://img.shields.io/github/issues/falloutchonny/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/falloutchonny/cra-template-antd-admin/issues
+[issues-url]: https://github.com/FallOutChonny/cra-template-antd-admin/issues
 [license-shield]: https://img.shields.io/github/license/falloutchonny/repo.svg?style=for-the-badge
-[license-url]: https://github.com/falloutchonny/cra-template-antd-admin/blob/master/LICENSE.txt
+[license-url]: https://github.com/FallOutChonny/cra-template-antd-admin/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/falloutchonny
+[linkedin-url]: https://linkedin.com/in/FallOutChonny
+[product-screenshot]: screenshots/screenshots1.png
