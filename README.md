@@ -67,12 +67,12 @@ The antd+TS, tailwindcss, styled-components, react-router, react-query template 
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
+ 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](./screenshots/screenshots1.png)
 
 This is a [Create React App](https://create-react-app.dev/) template that integrates many tools and libs, it can let you start the development work directly and quickly without trivial steps to set up your project.
 
@@ -95,14 +95,15 @@ This is a [Create React App](https://create-react-app.dev/) template that integr
 
   * babel-plugin-import - only boundle the styles and components of antd that used by the app.
 
-  * babel-plugin-styled-components - purge unused styles.
+  * babel-plugin-styled-components
+    * purge unused styles
+    * support css props in native html tag.
 
 * [prettier](https://prettier.io/docs/en/precommit.html)
   - pre-commit hook with husky, lint-staged, this can re-format your files that are marked as “staged” via git add before you commit.
 
 * [tailwindcss](https://tailwindcss.com/)
   * building layouts freely.
-  * highly cusotomizable.
   * purge enabled.
 
 * [styled-components](https://styled-components.com/)
@@ -167,7 +168,7 @@ my-app
     │   ├── icons			    	- custom/extend icons
     │   │   ├── Add.tsx	
     │   │   └── Edit.tsx
-    │   ├── ui
+    │   ├── ui                      - should be atomic and pure, like Button, Select, Tabs
     │   │   ├── Header.tsx			- the navbar of app
     │   │   └── Sider.tsx			- the left sider of app
     │   ├── ErrorBoundary.tsx 		- handling react errors
