@@ -9,11 +9,11 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][https://github.com/falloutchonny/cra-template-antd-admin/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/falloutchonny/cra-template-antd-admin/network/members]
-[![Stargazers][stars-shield]][https://github.com/falloutchonny/cra-template-antd-admin/stargazers]
-[![Issues][issues-shield]][https://github.com/falloutchonny/cra-template-antd-admin/issues]
-[![MIT License][license-shield]][https://github.com/falloutchonny/cra-template-antd-admin/license]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 
 The antd+TS, tailwindcss, styled-components, react-router, react-query template for [Create React App](https://create-react-app.dev/)
