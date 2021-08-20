@@ -18,6 +18,9 @@
 
 The antd+TS, tailwindcss, styled-components, react-router, react-query template for [Create React App](https://create-react-app.dev/)
 
+一款使用 antd 拉好基本佈局、並整合好 [router](https://reactrouter.com/), [styled-components](https://styled-components.com/), [tailwindcss](https://tailwindcss.com/), [prettier commit hook](https://prettier.io/docs/en/precommit.html) 和 craco 設定的 CRA 樣板，讓你可以快速開始一個以 antd 作為基礎功能和 UI 的專案
+
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
