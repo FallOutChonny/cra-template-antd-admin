@@ -1,7 +1,5 @@
 # cra-template-antd-admin
 
-The antd+TS, tailwindcss, styled-components, react-router, react-query template for [Create React App](https://create-react-app.dev/)
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -16,6 +14,9 @@ The antd+TS, tailwindcss, styled-components, react-router, react-query template 
 [![Stargazers][stars-shield]][https://github.com/falloutchonny/cra-template-antd-admin/stargazers]
 [![Issues][issues-shield]][https://github.com/falloutchonny/cra-template-antd-admin/issues]
 [![MIT License][license-shield]][https://github.com/falloutchonny/cra-template-antd-admin/license]
+
+
+The antd+TS, tailwindcss, styled-components, react-router, react-query template for [Create React App](https://create-react-app.dev/)
 
 <!-- PROJECT LOGO -->
 <br />
